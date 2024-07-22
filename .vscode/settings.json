@@ -18,5 +18,10 @@
         "titleBar.inactiveBackground": "#ff5e6f99",
         "titleBar.inactiveForeground": "#15202b99"
     },
-    "peacock.color": "#ff5e6f"
+    "peacock.color": "#ff5e6f",
+    "standard.options": {
+        "env": ["jest"]
+    },
+    "cucumberautocomplete.syncfeatures": "tests/**/*.feature",
+    "cucumberautocomplete.steps": ["tests/**/*.js"]
 }
